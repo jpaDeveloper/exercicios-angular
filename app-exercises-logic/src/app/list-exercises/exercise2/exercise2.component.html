@@ -1,0 +1,26 @@
+<div id="exercicio2">
+  <h3>Exercicio 2</h3>
+  <p>
+    Ler três notas de um aluno, calcular a média
+	e informar se ele foi aprovado (Média ≥ 7),
+	reprovado (Média < 7) ou aprovado com
+	louvor (Média = 10)
+  </p>
+  
+  <div class="form-group box-t ">
+        <div class="row">
+            <div class="col-md-6">
+            	Nota 1
+              <input #txtNota1 type="text" class="form-control"  [{ngModel}]="textValue1" required>
+              	Nota 2
+              	<input type="text" #txtNota2 class="form-control" [{ngModel}]="textValue2" required>
+              	Nota 3
+              	<input type="tx" #txtNota3 class="form-control" [(ngModel)]="textValue3" required>
+            </div>
+            <div class="col-md-6 btn-centralizar">
+              <button class="btn btn-success" (click)="verificarMedia(txtNota1.value, txtNota2.value, txtNota3.value)">Enviar</button>
+            </div>
+        </div>
+  </div>
+  
+</div>

@@ -1,58 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
-#header{
-    background: #8B1C05;
-    text-align: center;
-}
+
 #exercicio1{
     background: #F37207;
     padding: 20px;
 }
-#contact{
-	background: #F3B405;
-}
-#menu{
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-#menu-parent{
-	position: relative;
-}
 
-#menu li{
-	list-style: none;
-	display: inline;
-}
-
-#menu a{
-	text-decoration: none;
-	line-height: 42px;
-	padding: 8px;
-}
-#about{
-	/* background: url(../images/about.jpg) no-repeat center center;
-	background-size: cover; */
-}
 .box-t{
     width: 50%;
-}
-.white-color *{
-	color: white;
-	margin: 0;
-}
-.default-width{
-	width: 80%;
-	margin: 0 auto;
-}
-.large-height{
-	height: 500px;
-}
-
-
-body{
-	margin: 0;
-}
-
-*{
-	font-family: 'Open Sans Condensed', sans-serif;
 }
