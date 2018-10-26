@@ -1,0 +1,24 @@
+<div id="exercicio4">
+  <h3>Exercicio 4</h3>
+  <p>
+     Fazer um algoritmo para calcular e escrever a
+	soma dos cubos dos números pares
+	compreendidos entre B e A (B > A). B e A são
+	lidos pelo teclado.
+  </p>
+  
+  <div class="form-group box-t ">
+        <div class="row">
+            <div class="col-md-6">
+            	Variável A
+              <input #txtA type="text" class="form-control"  [(ngModel)]="textValue1" required>
+              	Variável B
+              	<input  #txtB type="text" class="form-control" [(ngModel)]="textValue2" required>
+            </div>
+            <div class="col-md-6 btn-centralizar">
+              <button class="btn btn-success" (click)="somaCubos(txtA.value, txtB.value)">Enviar</button>
+            </div>
+        </div>
+  </div>
+  
+</div>

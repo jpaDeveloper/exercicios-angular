@@ -1,0 +1,12 @@
+#exercicio4{
+    background: #F37207;
+    padding: 20px;
+    margin-top: 15px;
+}
+/* You can add global styles to this file, and also import other style files */
+.box-t{
+    width: 50%;
+}
+.btn-centralizar{
+	margin-top: 72px;
+}
