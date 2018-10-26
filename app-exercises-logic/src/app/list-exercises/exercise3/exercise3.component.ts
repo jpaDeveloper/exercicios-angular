@@ -28,7 +28,6 @@ export class Exercise3Component implements OnInit {
   		else if (this.list[this.i] < this.menor)
   			this.menor = this.list[this.i];
   		this.i++;
-  		alert('Lista: ' + this.list);
   	}
   	else if (this.intIdade < 0) // Solicita idade valida (maior que zero)
   		alert('Por favor digite uma idade válida!');
